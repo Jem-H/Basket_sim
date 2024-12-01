@@ -1,0 +1,13 @@
+{
+  "sports": [
+    { "title": "Tennis", "price": "£15" },
+    { "title": "Premier League", "price": "£21" },
+    { "title": "Golf", "price": "£12" },
+    { "title": "F1 Racing", "price": "£16.25" }
+  ],
+  "movies": [
+    { "title": "Giants", "price": "£5.75" },
+    { "title": "Titans", "price": "£8.30" },
+    { "title": "Minions", "price": "£9" }
+  ]
+}

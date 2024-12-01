@@ -1,0 +1,85 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  width: 10vw;
+  height: 10vw;
+  min-width: 9rem;
+  min-height: 9rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: brown;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 70%;
+  height: 10%;
+  min-width: 2rem;
+  min-height: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  border-color: green;
+  padding: 0.25rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.menu-category {
+  margin: 0.5rem;
+}
+
+.menu-heading {
+  text-align: left;
+  text-transform: capitalize;
+  margin: 0rem 0.5rem;
+}
+
+.basket {
+  text-align: center;
+  border: solid purple;
+  width: 30%;
+  min-width: 6rem;
+  height: 70vh;
+  padding: 2rem;
+  position: sticky;
+  right: 1rem;
+  top: 1rem;
+}
+
+.basket-listing {
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0rem;
+}
+
+.basket-delete {
+  color: red;
+  float: right;
+  padding: 0rem 0.5rem;
+}
+
+html,
+body {
+  color: darkblue;
+}
